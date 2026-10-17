@@ -119,8 +119,6 @@ def isConnected (V : Set (Fin 2 → k)) : Prop :=
 
 
 -- X irreducible iff A(X) integral domain
-theorem IrredIffDom : ∀ V ∈ Set (Fin 2 → k) → (isIrreducible V ↔ IsDomain (coordinateRing V)) := by
+theorem irreducible_iff_isDomain (V : Set (Fin 2 → k)) :
+  isIrreducible V ↔ IsDomain (coordinateRing V) := by
   sorry
-
-∀ A, A ∈ ZariskiClosed k → ∀ B, B ∈ ZariskiClosed k →
-    A ∪ B ∈ ZariskiClosed k := by

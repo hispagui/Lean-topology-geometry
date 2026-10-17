@@ -48,6 +48,8 @@ def circleCoordinateRing :=
 
 
 
+
+
 -- prove that D(fg) = D(f) ∩ D(g) in Spec R
 
 variable {R : Type*} [CommRing R]
